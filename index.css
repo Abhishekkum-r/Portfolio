@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.bod {
+    color: white;
+    font: lighter;
+    background-color: gray;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a,img {
+    /* float: left; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .ali a{
+    /* align-items: center; */
+    float: right;
+  }
+  .im img {
+    float: left;
+    /* align-self: right; */
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5%;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 5%;
+  }
+  .kk {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .kk img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    align-content: center;
+    margin: auto;
+    border-radius: 50%;
+  }
+ 
+  .nam:hover {
+    background-color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bold;
+    
+
+  }
+  .nam {
+    text-align: center;
+  }
+ 
+  span {
+    width: 10px;
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+ }
+/* body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1f20;
+}  */
+h2{
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 4em;
+    color: #d7b94c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.typewriter{
+    position: relative;
+}
+.typewriter::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color:  gray;
+    width: 100%;
+    animation: typing 3s steps(14) alternate infinite,
+                line 1s infinite;
+}
+@keyframes typing{
+    to{
+        width: 0%;
+    }
+}
+@keyframes line {
+    50%{
+        color: transparent;
+    }
+}
+.conta {
+  /* position: fixed; */
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: grey;
+}
+
+  @media (max-width: 600px) {
+    
+    
+  }
